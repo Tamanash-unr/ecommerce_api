@@ -7,6 +7,6 @@ System Requirements:
 
 How to Setup:
 - Clone the Project
-- Navigate inside the folder and run 'npm install'
+- Navigate inside the folder and launch terminal here then run 'npm install'
 - After 'npm install' completes successfully run the command 'node index.js'
 - If you have nodemon installed you can also run 'npm start'.
