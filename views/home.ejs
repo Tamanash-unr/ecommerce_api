@@ -1,0 +1,46 @@
+<center>
+    <h2>Ecommerce API</h2>
+</center>
+
+
+<form action="/create-product" id="new-product-form" method="post">
+    <h3>Create Product</h3>
+    <label>Product Name: </label>
+    <input type="text" id="product-name" name="name" placeholder="Enter Name...." required/>
+    <label>Product Quantity: </label>
+    <input type="text" id="product-qty" name="quantity" placeholder="Enter Quantity...." required/>
+    <input type="submit" value="Create Product">
+</form>
+
+<form action="/update-product" id="update-product-form" method="post">
+    <h3>Update Product Quantity</h3>
+    <label>Product Id: </label>
+    <input type="text" id="update-product-id" name="id" placeholder="Enter Product Id...." required/>
+    <label>Product Quantity: </label>
+    <input type="text" id="update-product-qty" name="quantity" placeholder="Enter Quantity...." required/>
+    <input type="submit" value="Update Product">
+</form>
+
+<div>
+    <h2>Products</h2>
+    <ul id="products-list">
+        <li id="products-list-headings">
+            <p>
+                <div>
+                    <strong>ID</strong>
+                </div>
+                <div>
+                    <strong>Name</strong>
+                </div>
+                <div>
+                    <strong>Quantity</strong>
+                </div>
+                <a href="#"></a>
+            </p>            
+        </li>
+    </ul>
+</div>
+
+
+
+<script src="/js/home.js"></script>
